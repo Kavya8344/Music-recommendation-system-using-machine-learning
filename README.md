@@ -14,8 +14,6 @@ MRSF/
 │── musicrec.pkl # Pickled DataFrame with songs metadata
 │── similarities.pkl # Pickled similarity matrix
 
-yaml
-Copy code
 
 ---
 
@@ -42,13 +40,13 @@ venv\Scripts\activate   # On Windows
 source venv/bin/activate # On Linux/Mac
 3️⃣ Install dependencies
 bash
-Copy code
+
 pip install -r requirements.txt
 ▶️ Running the App
 Start the Streamlit app:
 
 bash
-Copy code
+
 streamlit run mrsa.py
 Then open your browser at: http://localhost:8501
 
@@ -79,10 +77,4 @@ Kavya8344
 📜 License
 This project is licensed under the MIT License.
 
-yaml
-Copy code
 
----
-
-👉 I see you also used `numpy`, `pandas`, `pickle`, and `streamlit`.  
-Would you like me to also generate a **`requirements.txt`** for your repo so install
